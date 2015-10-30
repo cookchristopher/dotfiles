@@ -38,4 +38,8 @@
   set foldenable                          " don't fold files by default on open
 " }}}
 
+" {{{ Plugins
+  let g:jsx_ext_required = 0              " enable JSX syntax highlighting in .js files
+" }}}
+
 " vim:foldmethod=marker:foldlevel=0
