@@ -41,6 +41,7 @@
 " {{{ Plugins
   let g:jsx_ext_required = 0              " enable JSX syntax highlighting in .js files
   let NERDTreeIgnore=['node_modules']     " ignore folders in nerdtree
+  let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard'] " ctrlp ignores anything in .gitignore
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
