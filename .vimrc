@@ -40,6 +40,7 @@
 
 " {{{ Plugins
   let g:jsx_ext_required = 0              " enable JSX syntax highlighting in .js files
+  let NERDTreeIgnore=['node_modules']     " ignore folders in nerdtree
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
